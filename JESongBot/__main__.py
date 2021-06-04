@@ -13,7 +13,6 @@ Heya [{}](tg://user?id={}), I'm Song Downloader Bot 🎵
 
 Do /help for know my commands
 
-A bot by @Infinity_BOTs
 """
 
 help_text = """
@@ -24,7 +23,7 @@ My commands👇
 - /deezer <song name>: download songs via Deezer
 - Send youtube url to my pm for download it on audio format
 
-A bot by @Infinity_BOTs
+Bot is @LKSongBot
 """
 
 @app.on_message(filters.command("start"))
@@ -40,7 +39,7 @@ async def start(client, message):
                         text="Source", url="https://github.com/ImJanindu/JESongBot"
                     ),
                     InlineKeyboardButton(
-                        text="Dev", url="https://t.me/ImJanindu"
+                        text="BOT", url="https://t.me/LKSongBot"
                     )
                 ]
             ]
@@ -54,5 +53,5 @@ async def start(client, message):
     await message.reply(help_text)
 
 app.start()
-LOGGER.info("JESongBot is online.")
+LOGGER.info("LKSongBot is online🎶.")
 idle()
