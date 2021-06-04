@@ -1,4 +1,4 @@
-# JE Song Bot
+# LK Song Bot
 ## A telegram bot that can download songs
 
 Reach me on Telegram [Song Bot 🎵](https://t.me/LKSongBot)
